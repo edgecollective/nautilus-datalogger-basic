@@ -1,8 +1,8 @@
 # nautilus-datalogger-basic
 
-he basic test setup is:
+The basic test setup is:
 
-1. Format the flash chipt, to make sure we don't have any weird stuff on it. 
+1. Format the flash chip, to make sure we don't have any weird stuff on it. 
 
 Use 'fts_format' for this.  After uploading, it will go dark for a few seconds -- and then when it has erased everything successfully, it will 'double flash' every second (blink blink pause, blink blink pause).
 
