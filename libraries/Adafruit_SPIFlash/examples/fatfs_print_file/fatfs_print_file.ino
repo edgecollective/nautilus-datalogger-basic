@@ -39,10 +39,10 @@ Adafruit_SPIFlash flash(FLASH_SS, &FLASH_SPI_PORT);     // Use hardware SPI
 // Alternatively you can define and use non-SPI pins!
 // Adafruit_SPIFlash flash(FLASH_SCK, FLASH_MISO, FLASH_MOSI, FLASH_SS);
 
-Adafruit_W25Q16BV_FatFs fatfs(flash); 
+Adafruit_W25Q16BV_FatFs fatfs(flash);
 
 // Configuration for the file to open and read:
-#define FILE_NAME      "data1.csv"
+#define FILE_NAME      "data.csv"
 
 
 void setup() {
